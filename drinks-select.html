@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drinks Menu Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Logo-23 Icon (Red).png" type="image/x-icon" />
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-center">
+          <!-- Header -->
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="img/Logo-22 (White).png" alt="Recipe Station logo">
+            </a>
+            <!-- Drop down button to provide drop down menu for phones etc -->
+            <button type="button" class="btn nav-btn">
+                <img src="img/drop-menu-icon.png" alt="">
+            </button>
+            <!-- End of drop down button -->
+          </div>
+          <!-- Links of nav bar -->
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="drinks-select.html" class="nav-link">Drinks</a>
+            <a href="cooking-techniques.html" class="nav-link">Techniques</a>
+          </div>
+          <img src="img/moon.png" alt="" id="icon">
+        </div>
+      </nav>
+      <!-- end of nav -->
+    <br><br>
+
+    <div class="container">
+
+        <h1 class="heading">Choose Drink Type</h1>
+
+        <div class="box-container">
+
+            <button onclick="randomLinkSmoothie()"class="box">
+                <h2>Smoothies</h2><br>
+                <img src="img/Smoothie-1.png" alt=""><br>
+
+            </button>
+
+            <button onclick="randomLinkMilkshakes()"class="box">
+                <h2>Milkshakes</h2><br>
+                <img src="img/Milkshakes.png" alt="">
+
+            </a>
+
+            <button onclick="randomLinkHotDrinks()"class="box">
+                <h2>Hot Drinks</h2><br>
+                <img src="img/Hot-Drinks.png" alt="">
+
+            </a>
+
+            <button onclick="randomLinkColdDrinks()"class="box">
+                <h2>Cold Drinks</h2><br>
+                <img src="img/Cold-Drinks.png" alt="">
+
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-flexbox-container">
+            <ul class="social-media">
+                <li class="flexbox-item flexbox-item-1"><a href="https://www.facebook.com/"><img src="img/pngimg.com - facebook_logos_PNG19754.png" alt="Link to facebook page" height="45px" width="45px"></a></li>
+                <li class="flexbox-item flexbox-item-2"><a href="https://www.instagram.com/"><img src="img/pngimg.com - instagram_PNG3.png" alt="Link to instagram page" height="45px" width="45px"></a></li>
+                <li class="flexbox-item flexbox-item-3"><a href="mailto:40537500@live.napier.ac.uk"><img src="img/pngimg.com - email_PNG18.png" alt="Link to mail page" height="45px" width="45px"></a></li>
+                <li class="flexbox-item flexbox-item-4"><a href="https://www.twitter.com"><img src="img/pngimg.com - twitter_PNG95259.png" alt="Link to twitter page" height="45px" width="45px"></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="terms-of-use.html">Terms of Use</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="mailto:40537500@live.napier.ac.uk">Contact Us</a></li>
+            </ul>
+            <p>©2023 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
