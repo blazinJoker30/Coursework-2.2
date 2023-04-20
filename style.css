@@ -1,7 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-font-face{
+/* font-face{
     font-family: 'Open Sans';
     src: url("fonts/OpenSans-VariableFont-wdth-wght.ttf") format('truetype');
     font-weight: lighter;
@@ -13,7 +13,7 @@ font-face{
     src: url("fonts/static/Labrada-Light.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 *{
     font-family: 'Labrada Light', serif;
