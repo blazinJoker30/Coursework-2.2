@@ -1,14 +1,19 @@
+*/ 
+   CSS For Recipe Station (Web Tech) Site
+   Euan Aitken. April 2023
+/*
+
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-/* font-face{
+/* font-face {
     font-family: 'Open Sans';
     src: url("fonts/OpenSans-VariableFont-wdth-wght.ttf") format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 
-font-face{
+font-face {
     font-family: 'Labrada Light';
     src: url("fonts/static/Labrada-Light.ttf") format('truetype');
     font-weight: normal;
@@ -23,28 +28,25 @@ font-face{
     outline: none;
     border: none;
     transition: .2s linear;
-
 }
 
-:root{
+:root {
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
-
 }
 
-.dark-theme{
-
+.dark-theme {
     --primary-color: #fff;
     --secondary-color: rgba(0, 0, 0, .9);
-
 }
 
-body{
+body {
     background-color: var(--secondary-color);
     text-align: center;
     max-width: 100%;
     align-items: center;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans Light', sans-serif;
 }
@@ -54,11 +56,11 @@ h2 {
     font-size: 45px;
 }
 
-h1, h4{
+h1, h4 {
     color: var(--secondary-color)
 }
 
-p{
+p {
     color: var(--primary-color);
     font-size: 20px;
     padding: 20px 2.5%;
@@ -97,6 +99,7 @@ Navbar
     width: 90vw;
     max-width: 1200px;
 }
+
 .nav-header {
     height: 6rem;
     display: flex;
@@ -109,6 +112,7 @@ Navbar
     display: flex;
     align-items: flex-end;
 }
+
 .nav-logo img {
     height: 90px;
     width: 90px;
@@ -116,7 +120,6 @@ Navbar
 
 .nav-header img {
     width: 200px;
-  
 }
 
 .nav-btn {
@@ -137,12 +140,11 @@ Navbar
     overflow: hidden;
 }
 
-
-.show-links{
+.show-links {
     height: 310px;
 }
   
-.nav-link{
+.nav-link {
     font-size: 1.25rem;
     display: block;
     text-align: center;
@@ -152,7 +154,6 @@ Navbar
     padding: 1rem 0;
     border-top: 1px solid grey;
     transition: 0.3s ease-in-out all;
-    
 }
   
 .nav-link:hover {
@@ -160,56 +161,53 @@ Navbar
 }
   
 @media screen and (min-width:750px) {  
-    .nav-btn{
+    .nav-btn {
       display: none;
     }
-    .navbar{
+    .navbar {
       height: 6rem;
     }
-    .nav-center{
+    .nav-center {
       display: flex;
       align-items: center;
     }
-    nav.header{
+    nav.header {
       padding: 0;
       height: auto;
       margin-right: 2rem;
     }
-    .nav-links{
+    .nav-links {
       height: auto;
       flex-direction: row;
       align-items: center;
       width: 100%;
     }
-    .nav-link{
+    .nav-link {
       padding: 0;
       border-top: none;
       margin-right: 1.1rem;
       font-size: 1.1rem;
     }
-    /* Will be used for dark and light mode */
-    /* .dark-mode-buton{
-      margin-left: auto;
-    } */
 }
-#icon{
+#icon {
     width: 30px;
     cursor: pointer;
 }
+
 /*
 ==========================
   INTRO HEADING
 ==========================
 */
-.intro-heading{
+.intro-heading {
     height: 40vh;
     background: url('img/header-image-1.jpg') center/cover no-repeat;
     margin-bottom: 2rem;
     border-radius: 0.25rem;
     position: relative;
-  
 }
-.intro-heading-container{
+
+.intro-heading-container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -227,20 +225,21 @@ Navbar
     color: var(--secondary-color);
 }
 
-.intro-heading-text h1{
+.intro-heading-text h1 {
     color: var(--secondary-color);
 }
 
 @media screen and (min-width:750px) {
-    .intro-heading-text h1{
+    .intro-heading-text h1 {
       font-size: 4rem;
       margin-bottom: 0;
     }
 }
+
 /* 
-===============================
-=Recipe Pages (main home page)=
-===============================
+===================================
+  Recipe Pages (Main Home Page)
+===================================
 */
 .recipe-1, .recipe-2, .recipe-3, .recipe-4 {
     border: 2px solid darkgray;
@@ -288,7 +287,6 @@ Navbar
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 footer {
@@ -319,10 +317,12 @@ footer .social-media li a {
     transition: 0.5s;
     padding: 5px;
 }
+
 footer .social-media li a:hover {
     transform: translate(-10px);
 }
-footer .menu li a{
+
+footer .menu li a {
     font-size: 1rem;
     color: var(--secondary-color);
     padding: 10px;
@@ -331,11 +331,13 @@ footer .menu li a{
     text-decoration: none;
     opacity: 0.75;
 }
-footer .menu li a:hover{
+
+footer .menu li a:hover {
     opacity: 1;
     color: var(--primary-color);
 }
-footer p{
+
+footer p {
     color: var(--secondary-color);
     text-align: center;
     margin: 0;
@@ -346,9 +348,9 @@ footer p{
 }
 
 /* 
-========================
-  Single  RECIPE Page
-========================
+=========================
+   Single RECIPE Page
+=========================
 */
 .recipe-hero {
     /* display: flex; */
@@ -361,9 +363,11 @@ footer p{
     height: 400px;
     margin-left: -2rem;
 }
-  .recipe-hero p {
+
+.recipe-hero p {
     color: var(--primary-color);
 }
+
 .recipe-icons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -387,7 +391,7 @@ footer p{
 }
 
 @media screen and (min-width: 992px) {
-    .recipe-hero{
+    .recipe-hero {
       grid-template-columns: 3fr 5fr;
       align-items: center;
     }
@@ -418,8 +422,7 @@ footer p{
     align-items: center;
     font-size: 1.15rem;
 }
-  
-  
+
 .single-instruction {
     gap: 1.5rem;
     text-align: left;
@@ -456,9 +459,9 @@ footer p{
 }
 
 /* 
-====================================
-        DRINKS SELECT CSS
-====================================
+==============================
+       DRINKS SELECT
+==============================
 */
 .container {
     /* creates a page color gradient - could use in the future */
@@ -503,6 +506,7 @@ footer p{
     box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
     transform: scale(1.03);
 }
+
 /* 
 ===============================
     Cooking Techniques Page   
@@ -514,7 +518,6 @@ footer p{
     padding: 9%;
     padding-top: 20px;
     transition: .2s linear;
-
 }
 
 .cooking-info-container .cooking-techniques-heading {
@@ -653,20 +656,21 @@ footer p{
     Terms of Use Page
 =============================
 */
-
-.terms-of-use{
+.terms-of-use {
     padding: 0 5rem;
     padding-bottom: 5rem;
     text-align: justify;
     align-items: center;
 }
-.terms-of-use h1{
+
+.terms-of-use h1 {
     color: var(--primary-color);
     font-size: 50px;
     margin-bottom: 25px;
     text-align: center;
 }
-.terms-of-use ol li p{
+
+.terms-of-use ol li p {
     padding: 5px;
 }
 
@@ -681,7 +685,6 @@ footer p{
     height: 100vh;
     width: 100%;
 }
-
 
 .carousel {
     position: relative;
@@ -715,4 +718,3 @@ footer p{
     font-size: 16px;
     background-color: #666;
 }
-  
