@@ -1,9 +1,3 @@
-*/ 
-   JavaScript For Recipe Station (Web Tech) Site
-   Euan Aitken, April 2023
-/*
-
-
 // Menu button when width less than 750px
 const getElement = (selector) => {
   const element = document.querySelector(selector)
